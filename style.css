@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', ;
+}
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb( 45, 48, 58 );
+    max-width: 1020px;  
+    margin: 0 auto;
+    height: 89px;
+    z-index: 81;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    font-size: 18.034px;
+    font-family: "Lato";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    line-height: 0.253;
+    text-align: justifyLeft;
+    -moz-transform: matrix( 1.3468753916099, 0, 0, 1.3862334687077, 0, 0);
+    -webkit-transform: matrix( 1.3468753916099, 0, 0, 1.3862334687077, 0, 0);
+    padding: 0px 43px;
+  }
+  
+  
